@@ -1,0 +1,3 @@
+add_executable(hist_cpu hist_cpu.cu)
+add_executable(hist_gpu_gmem_atomics hist_gpu_gmem_atomics.cu)
+add_executable(hist_gpu_shmem_atomics hist_gpu_shmem_atomics.cu)

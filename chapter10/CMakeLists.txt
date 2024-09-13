@@ -1,0 +1,4 @@
+add_executable(basic_double_stream basic_double_stream.cu)
+add_executable(basic_double_stream_correct basic_double_stream_correct.cu)
+add_executable(basic_single_stream basic_single_stream.cu)
+add_executable(copy_timed copy_timed.cu)

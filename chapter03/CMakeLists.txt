@@ -1,0 +1,6 @@
+add_executable(enum_gpu enum_gpu.cu)
+add_executable(hello_world hello_world.cu)
+add_executable(set_gpu set_gpu.cu)
+add_executable(simple_device_call simple_device_call.cu)
+add_executable(simple_kernel simple_kernel.cu)
+add_executable(simple_kernel_params simple_kernel_params.cu)

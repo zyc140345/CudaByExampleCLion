@@ -1,0 +1,5 @@
+add_executable(add_loop_blocks add_loop_blocks.cu)
+add_executable(add_loop_long_blocks add_loop_long_blocks.cu)
+add_executable(dot_05 dot.cu)
+add_executable(ripple_05 ripple.cu)
+add_executable(shared_bitmap shared_bitmap.cu)
