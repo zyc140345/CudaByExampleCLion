@@ -4,6 +4,10 @@ project(cuda_by_example)
 set(CMAKE_CXX_STANDARD 17)
 enable_language(CUDA)
 
+find_package(OpenGL REQUIRED)
+find_package(GLUT REQUIRED)
+include_directories(${OPENGL_INCLUDE_DIRS}  ${GLUT_INCLUDE_DIRS})
+
 include_directories(appendix_a)
 include_directories(common)
 include_directories(common/GL)
