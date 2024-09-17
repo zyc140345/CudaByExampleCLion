@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="3090-server" remoteFilesAllowedToDisappearOnAutoupload="false" confirmBeforeUploading="false">
+  <component name="PublishConfigData" autoUpload="Always" serverName="3090-server-lan" remoteFilesAllowedToDisappearOnAutoupload="false" confirmBeforeUploading="false">
     <option name="confirmBeforeUploading" value="false" />
     <serverData>
-      <paths name="3090-server">
+      <paths name="3090-server-lan">
         <serverdata>
           <mappings>
             <mapping deploy="/home/zyc/workspace/cuda_projects/cuda_by_example" local="$PROJECT_DIR$" />
           </mappings>
           <excludedPaths>
             <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-3090-server" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-3090-server-lan" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-3090-server-wan" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="3090-server-wan">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/zyc/workspace/cuda_projects/cuda_by_example" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-3090-server-lan" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-3090-server-wan" />
           </excludedPaths>
         </serverdata>
       </paths>

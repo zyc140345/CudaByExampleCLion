@@ -7,3 +7,6 @@ target_link_libraries(julia_cpu ${OPENGL_LIBRARIES} ${GLUT_LIBRARY})
 
 add_executable(julia_gpu julia_gpu.cu)
 target_link_libraries(julia_gpu ${OPENGL_LIBRARIES} ${GLUT_LIBRARY})
+
+add_executable(burning_ship_gpu burning_ship_gpu.cu)
+target_link_libraries(burning_ship_gpu ${OPENGL_LIBRARIES} ${GLUT_LIBRARY})
